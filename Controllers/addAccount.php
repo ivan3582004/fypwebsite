@@ -13,12 +13,12 @@ session_start();
 			if($_POST['pwd']==$_POST['pwdc']){
 				$db->addRow('Account',$value);
 				$db->addRow('Customer',"'".$db->getID('customer','CustomerID')."','".$_POST['AccountID']."'");
-				$_SESSION['msg']="Sgin up";
+				$_SESSION['msg']="You have sign up successfully!";
 			}else{
-				$_SESSION['msg']="Password not mach";
+				$_SESSION['msg']="Password not match";
 			}
 		}else{
-			$_SESSION['msg']="AccountID exist";
+			$_SESSION['msg']="Account exist";
 		}
 		
 		
