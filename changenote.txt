@@ -1,0 +1,15 @@
+============ 2020/02/20 - RONALD ============
+	※ CSS updates
+- Enhanced spacing of most pages
+- Restaurant pictures now resizes on certain screen sizes
+- Website will now stretch to fill full screen when the content doesn't fill the full screen (no more white-spaces below footer)
+	※ Added functions
+- Added [Add Operator Group] function
+- Added [Manage Operator Group] function
+└ [Add Member] function
+└ [Remove Member] function
+	※ Fixes
+- Corrected a typo in [Controllers/AddShop] and [AddShop]
+	※ Unknown Issues
+- The insert data for table [OperatorGroupMemberList] is not working properly so I had to manually insert the datas myself
+└ Might be only a incompatible MySQL version problem on my computer though, shouldn't be a big problem
